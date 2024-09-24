@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+body{
+     background-color: blanchedalmond;
+}
+img{
+   width: 120px;
+   height: 93px;
+}
+
+
+.con{
+     width: 40%;
+    margin: auto;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+h1{
+    text-align: center;
+    color: green;
+    border: solid 10px rgb(184, 131, 131);
+}
+
+h2{
+    color: green;
+    text-align: center;
+}
+
+.dd{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border: solid red 1px;
+}
+button{
+    margin: auto;
+}
+input{
+    display: block;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    
+    <h1>Generate Get Well Soon Card</h1>
+
+    <div class="con">
+<div id="card1">
+    <label for="image1s"><img src="./images/gws.jpg" id="image1"></label> 
+    <input type="radio" value="./images/gws.jpg" id="image1s" name="image">
+</div>
+
+<div id="card2">
+    <label for="image2s"><img src="./images/gws2.jpg" id="image2"></label> 
+    <input type="radio" value="./images/gws2.jpg" id="image2s" name="image">
+</div>
+
+<div id="card3">
+    <label for="image3s"><img src="./images/gws3.jpg" id="image3"></label>
+    <input type="radio" value="./images/gws3.jpg" id="image3s" name="image">
+</div>
+
+
+
+    <div id="card4">
+        <label for="image4s"><img src="./images/gwsf.jpg" id="image4"></label>
+        <input type="radio" value="./images/gwsf.jpg" id="image4s" name="image">
+    </div>
+
+    <div id="card5">
+        <label for="image5s"><img src="./images/gwsf2.jpg" id="image5"></label>
+        <input  type="radio" value="./images/gwsf2.jpg" id="image5s" name="image">
+    </div>
+
+    <div id="card6" style="display: fle;">
+        <label for="image6s"><img src="./images/gwsf3.jpg" id="image6"></label>
+        <input type="radio" value="./images/gwsf3.jpg" id="image6s" name="image">
+    </div>
+
+  
+        <div id="dd">
+            <h2>Personal message</h2>
+            <textarea  placeholder="Enter your messaagr" cols="40" rows="10" name="" id="text"></textarea>
+      
+
+    
+    </div>
+</div>
+<button style="display: block; margin: auto;" id="sub">generate</button>
+
+   
+
+
+
+
+
+
+
+
+
+    <script src="./index.js" ></script>
+</body>
+</html>
